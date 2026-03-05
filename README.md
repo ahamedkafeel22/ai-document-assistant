@@ -23,6 +23,7 @@ Upload any PDF document and ask questions in natural language. The system retrie
 ## 🖼️ Demo
 
 ![Demo 1](docs/demo1.png)
+![Demo 3](docs/demo3.png)
 ![Demo 2](docs/demo2.png)
 
 ---
