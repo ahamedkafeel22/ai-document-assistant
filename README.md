@@ -10,6 +10,17 @@
 
 ---
 
+## 🏢 Business Understanding
+
+| | |
+|---|---|
+| **Business Problem** | Professionals in finance, legal, and consulting spend 30–40% of their time manually searching through large documents — tax filings, contracts, annual reports, research papers — to extract specific information. This is slow, error-prone, and non-scalable. |
+| **Business Objective** | Build an AI-powered document assistant that allows users to upload any PDF and ask questions in natural language — instantly retrieving accurate, source-cited answers from the document without manual searching. |
+| **Business Constraint** | Answers must be context-grounded (not hallucinated), source citations must be provided for every response, and the system must handle documents up to 200MB across diverse domains (finance, legal, medical, technical). |
+| **Business Success Criteria** | Users can query any uploaded document in natural language and receive accurate, cited answers within 5 seconds — reducing document review time by 70–80% compared to manual search. |
+| **ML Success Criteria** | RAG pipeline retrieves the correct document chunk in top-4 results for ≥ 90% of queries; GPT-4o generates factually grounded answers with source page citation on every response. |
+| **Economic Success Criteria** | For a finance/legal professional spending 15 hours/week on document review at $50/hour, this tool saves ~10 hours/week = $26,000/year per user. Enterprise-scale deployment across 100 users = $2.6M annual productivity gain. |
+
 ## 🎯 What This Does
 
 Upload any PDF document and ask questions in natural language. The system retrieves the most relevant sections from the document and uses GPT-4o to generate accurate, context-aware answers with source citations.
